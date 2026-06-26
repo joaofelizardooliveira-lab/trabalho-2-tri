@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica Geométrica - João Emanuel</title>
+    <style>
+        /* Configurações Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho (Header) */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        /* Identificação do Aluno */
+        .creditos {
+            background-color: rgba(255, 255, 255, 0.15);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            margin-top: 10px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* Container Principal */
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Seções de Conteúdo */
+        section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border-left: 5px solid #2a5298;
+        }
+
+        section h2 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        /* Listas e Destaques */
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .destaque {
+            background-color: #eef2f7;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #1e3c72;
+            margin: 15px 0;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e3c72;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Trabalho de Física: Óptica Geométrica</h1>
+        <div class="creditos">
+            <strong>Aluno:</strong> João Emanuel | <strong>Turma:</strong> 1º B<br>
+            Colégio Estadual Alberto Santos Dumont - Campina da Lagoa
+        </div>
+    </header>
+
+    <main>
+        <section id="introducao">
+            <h2>O que é Óptica Geométrica?</h2>
+            <p>A Óptica Geométrica é a parte da física que estuda os fenômenos luminosos com base em aproximações geométricas e no conceito de <strong>raios de luz</strong>. Ela não se preocupa com a natureza da luz (se ela é uma onda ou uma partícula), mas sim com a sua trajetória e comportamento ao encontrar espelhos, lentes e diferentes meios.</p>
+        </section>
+
+        <section id="principios">
+            <h2>Os Três Princípios Fundamentais</h2>
+            <p>A óptica geométrica se baseia em três leis principais que explicam como a luz se propaga:</p>
+            <ul>
+                <li><strong>Princípio da Propagação Retilínea:</strong> Em meios homogêneos e transparentes, a luz se propaga em linha reta (é o que explica a formação das sombras e eclipses).</li>
+                <li><strong>Princípio da Independência dos Raios de Luz:</strong> Quando dois ou mais raios de luz se cruzam, eles continuam suas trajetórias como se nada tivesse acontecido, um não interfere no outro.</li>
+                <li><strong>Princípio da Reversibilidade da Luz:</strong> O caminho seguido pela luz não muda se o sentido de propagação for invertido. (Exemplo: Se você vê alguém pelo retrovisor, essa pessoa também consegue ver você).</li>
+            </ul>
+        </section>
+
+        <section id="fenomenos">
+            <h2>Principais Fenômenos Estudados</h2>
+            <div class="destaque">
+                1. Reflexão da Luz
+            </div>
+            <p>Ocorre quando a luz atinge uma superfície e retorna ao meio de origem. É o que acontece nos <strong>espelhos planos e esféricos</strong>, permitindo a formação de imagens.</p>
+
+            <div class="destaque">
+                2. Refração da Luz
+            </div>
+            <p>É a mudança de velocidade da luz quando ela passa de um meio transparente para outro (como do ar para a água). Esse fenômeno é responsável pelas <strong>lentes ópticas</strong> e pelo efeito visual de um lápis parecer quebrado dentro de um copo d'água.</p>
+        </section>
+
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+            <p>Compreender a óptica geométrica nos permite entender desde o funcionamento dos nossos olhos até tecnologias complexas utilizadas no dia a dia, como microscópios, telescópios, óculos de grau e os cabos de fibra óptica que transportam a internet.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para fins escolares por João Emanuel.</p>
+    </footer>
+
+</body>
+</html>
